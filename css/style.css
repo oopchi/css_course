@@ -3,6 +3,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
     font-family: 'Lato', sans-serif;
+    background-color: #121826;
 }
 
 button {
@@ -139,27 +140,19 @@ p {
     font-size: 36px;
 }
 
-.h-385px {
-    height: 385px;
-}
-
-/* sm screen size */
-@media (min-width: 640px) {
-    .sm\:text-60px {
-        font-size: 60px;
-    }
-
-    .sm\:text-20px {
-        font-size: 20px;
-    }
-
-    .sm\:h-689px {
-        height: 689px;
-    }
+.h-450px {
+    height: 450px;
 }
 
 /* md screen size */
 @media (min-width: 768px) {
+    .md\:text-60px {
+        font-size: 60px;
+    }
+
+    .md\:text-20px {
+        font-size: 20px;
+    }
 
     .md\:h-689px {
         height: 689px;
